@@ -7,6 +7,7 @@ test('seasons dropdown menu shows all options and fetches correct episodes and r
         // render App and make sure dropdown menu is shown
 
     // Act
+        // use userEvent not fireEvent
         // click on dropdown menu (and make sure options appear)
         // click on option and (make sure: 
             // api is called
